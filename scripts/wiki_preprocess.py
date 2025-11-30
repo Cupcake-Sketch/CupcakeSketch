@@ -57,8 +57,8 @@ class preprocess:
 
 if __name__ == "__main__":
     # 替换为实际的Parquet文件路径和输出文件路径
-    parquet_file = "/home/louyaopeng/Sketch/dataset/train-00000-of-00041.parquet"
-    output_file = "/home/louyaopeng/Sketch/dataset/wikipedia_00.dat"
+    parquet_file = "PATH_TO_YOUR_DATASET/train-00000-of-00041.parquet"
+    output_file = "PATH_TO_YOUR_DATASET/wikipedia_00.dat"
     process = preprocess()
     process.main(parquet_file, output_file)
     print(process.words_num)
