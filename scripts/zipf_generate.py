@@ -38,7 +38,7 @@ def generate_skewed_data(output_file, skewness, tot_pkgs):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='zipf')
-    parser.add_argument('--output_file', '-o', type=str, default='/home/louyaopeng/Sketch/dataset/_zipf_1.0.dat')
+    parser.add_argument('--output_file', '-o', type=str, default='PATH_TO_YOUR_DATASET/_zipf_1.0.dat')
     parser.add_argument('--total_size', '-t', type=int, default=256*1024*1024)
     parser.add_argument('--skewness', '-s', type=float, default=1.0)
     args = parser.parse_args()
